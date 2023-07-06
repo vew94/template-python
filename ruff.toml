@@ -1,0 +1,13 @@
+exclude = ["__init__.py"]
+fix = true
+fixable = ["ALL"]
+format = "grouped"
+ignore = ["D100"]
+ignore-init-module-imports = true
+pydocstyle.convention = "numpy"
+select = ["ALL"]
+src = ["hoge"]
+target-version = "py311"
+
+[per-file-ignores]
+"setup.py" = ["D100"]

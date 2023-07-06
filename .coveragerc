@@ -1,0 +1,9 @@
+[run]
+branch = True
+
+[path]
+source =
+    hoge/
+
+[report]
+skip_empty = true
